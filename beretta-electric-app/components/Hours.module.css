@@ -1,0 +1,23 @@
+.days p {
+  text-align: right;
+  margin-right: 5px;
+  font-size: smaller;
+  margin-top: 0px;
+}
+
+.hours p {
+  text-align: left;
+  font-size: smaller;
+  margin-top: 0px;
+}
+
+.title {
+  font-size: medium;
+  text-align: center;
+}
+
+.scheduleContainer {
+  display: flex;
+  /* margin-top: -1rem; */
+  min-width: 9rem;
+}

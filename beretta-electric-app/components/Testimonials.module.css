@@ -1,0 +1,140 @@
+.container {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+/* .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  align-items: center;
+  justify-items: center;
+} */
+
+.background {
+  margin-top: -1rem;
+  width: 100%;
+  height: calc(100vh - 4rem);
+  min-height: 920px;
+  background: black; /* fallback for old browsers */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  justify-items: space-between;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.testimonialCards {
+  max-height: 1rem;
+  /* opacity: 1; */
+}
+
+.leftContainer {
+  width: 20vw;
+  align-items: right;
+}
+
+.leftArrow {
+  font-size: 2rem;
+  margin-left: 2vw;
+  color: white;
+}
+
+.rightContainer {
+  width: 20vw;
+}
+
+.rightArrow {
+  font-size: 2rem;
+  margin-right: 2vw;
+  color: white;
+}
+
+.background_image {
+  /* margin: -2rem; */
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+  z-index: -100;
+  margin-bottom: -50rem;
+
+  /* max-height: 30rem;
+  max-width: 53.3rem; */
+}
+
+.header {
+  /* width: 80%;
+  top: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem; */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+  font-size: 42px;
+  font-family: "Arial";
+  font-weight: 750;
+  color: white;
+}
+
+.write {
+  text-align: center;
+  /* max-width: 10rem; */
+  /* width: 100%; */
+  margin: auto;
+  margin-top: 0rem;
+  background-color: GREEN;
+  color: white;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 2rem;
+  font-family: "Arial";
+  margin-bottom: 1rem;
+  width: 60%;
+}
+
+.write a {
+  color: white;
+}
+
+.write:hover {
+  opacity: 0.8;
+}
+/* 
+@media (max-width: 1000px) {
+  .testimonials {
+    grid-template-columns: repeat(3, 33vw);
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonials {
+    grid-template-columns: repeat(2, 50vw);
+  }
+} */

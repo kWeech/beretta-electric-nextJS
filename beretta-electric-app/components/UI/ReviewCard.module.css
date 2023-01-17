@@ -1,0 +1,25 @@
+.top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.stars {
+  color: rgb(199, 199, 2);
+  font-size: medium;
+}
+
+.date {
+  font-size: medium;
+  margin-left: 1rem;
+}
+.card {
+  font-family: "Arial";
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-color: white;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  width: 80%;
+}

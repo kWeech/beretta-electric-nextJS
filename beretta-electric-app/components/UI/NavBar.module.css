@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  font-family: Arial;
+}
+.link {
+  cursor: pointer;
+  color: green;
+  font-weight: 500;
+}
+
+.container li {
+  margin: 0px 1vw;
+  list-style-type: none;
+  justify-content: center;
+  text-align: center;
+  font-size: 17px;
+}
+
+.container li a:hover {
+  opacity: 0.3;
+}

@@ -1,0 +1,117 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  /* background-color: #24252a; */
+  /* background-color: #003e29; */
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+  /* margin-bottom: 6rem; */
+}
+
+.navBar {
+  display: flex;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.titleText {
+  position: fixed;
+  left: 5rem;
+  text-decoration: none;
+  color: rgb(0, 166, 80);
+  font-size: 42px;
+  font-family: "Arial";
+  font-weight: 750;
+  /* top: 15px; */
+  /* transition: 0.3s ease-in;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.9); */
+}
+
+.titleText:hover {
+  opacity: 0.3;
+}
+
+.navButton {
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: rgb(0, 166, 80);
+  margin-right: 5vw;
+  /* color: #28511c; */
+  align-items: right;
+  justify-items: right;
+  align-content: right;
+  justify-content: right;
+}
+
+.navButton:hover {
+  opacity: 0.3;
+}
+
+.phoneIcon {
+  font-size: 1.8rem;
+}
+
+.phoneButton {
+  justify-content: space-between;
+  /* position: fixed; */
+  align-items: center;
+  display: inline-flex;
+  gap: 0.1rem;
+  font-size: 1rem;
+  margin-left: 1vw;
+  cursor: pointer;
+  color: green;
+  /* color: rgb(0, 166, 80); */
+  margin-right: 2rem;
+  min-width: 170;
+}
+
+.phoneButton:hover {
+  opacity: 0.3;
+}
+
+.main-image {
+  z-index: 0;
+  overflow: hidden;
+  margin-top: 5rem;
+}
+.logo-image-container {
+  max-height: 3rem;
+}
+
+.logo-image {
+  width: 100%;
+  height: 100%;
+  max-height: 3rem;
+}
+.logo-image:hover {
+  opacity: 0.3;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  font-family: Arial;
+}
+
+@media (max-width: 500px) {
+  /* .phoneButton {
+    display: none;
+  } */
+
+  .logo-image {
+    height: 7vw;
+  }
+}

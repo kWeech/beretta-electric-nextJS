@@ -1,0 +1,38 @@
+.call {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 200px;
+  margin: auto;
+  margin-top: 1rem;
+  position: relative;
+  background-color: GREEN;
+  color: white;
+  border-radius: 10px;
+  /* padding: 1rem; */
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.atag {
+  text-decoration: none;
+}
+
+.call a {
+  color: white;
+  text-decoration: none;
+}
+
+.removeUn {
+  text-decoration: none;
+  margin-bottom: -2rem;
+}
+
+.call:hover {
+  opacity: 0.3;
+}
+
+.underline {
+  text-decoration: underline;
+}

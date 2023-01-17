@@ -1,0 +1,114 @@
+.page {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  background-color: #157843;
+  /* margin-top: 4rem; */
+  align-items: center;
+  background-repeat: no-repeat;
+  /* margin-bottom: 6rem; */
+  /* margin-top: -2rem; */
+}
+
+.rci {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  max-height: 84.5px;
+}
+
+.background {
+  margin-top: -1rem;
+  width: 100%;
+  height: calc(100vh - 4rem);
+  min-height: 920px;
+  background: black; /* fallback for old browsers */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.left1 {
+  width: 100%;
+  display: flex;
+}
+
+.text {
+  width: 90%;
+  font-size: 2.7vw;
+  color: white;
+  font-family: "Arial";
+  font-weight: 750;
+  justify-content: center;
+  text-align: center;
+  max-width: 900px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  align-items: center;
+  justify-items: center;
+}
+
+.background_image {
+  /* margin: -2rem; */
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+  z-index: -100;
+
+  /* max-height: 30rem;
+  max-width: 53.3rem; */
+}
+
+.emblem img {
+  margin-left: 2vw;
+  margin-top: 1rem;
+}
+
+.main-image img {
+  /* width: 110%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px; */
+
+  /* max-height: 30rem;
+  max-width: 53.3rem; */
+  border-radius: 50%;
+  margin-left: 2vw;
+  margin-top: 1rem;
+}
+
+.left {
+  padding-top: 2vw;
+  padding-right: 2vw;
+  padding-bottom: 4vw;
+  padding-left: 1vw;
+  top: 10%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo_img {
+  max-height: 159px;
+  height: 90%;
+  width: 90%;
+}
+
+@media (min-width: 1000px) {
+  .text {
+    font-size: 28px;
+  }
+}

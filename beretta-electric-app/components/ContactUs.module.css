@@ -1,0 +1,35 @@
+.text {
+  text-align: left;
+
+  margin: auto;
+  margin-top: 0rem;
+  position: relative;
+  color: black;
+  padding: 1rem;
+  font-size: 15px;
+  max-width: 60rem;
+}
+.header {
+  text-align: center;
+  text-decoration: underline;
+
+  margin: auto;
+  margin-top: 0rem;
+  position: relative;
+  color: black;
+  padding: 1rem;
+  font-size: 30px;
+}
+
+.days {
+  text-align: right;
+  margin-right: 5px;
+}
+
+.hours p {
+  text-align: left;
+}
+
+.scheduleContainer {
+  display: flex;
+}
