@@ -29,6 +29,7 @@ export default function Home() {
           content="Beretta Electric Electricians. Servicing Vernon, Kelowna, Lake Country, and the Okagan for over 18 years"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="http://localhost:3000/" />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"

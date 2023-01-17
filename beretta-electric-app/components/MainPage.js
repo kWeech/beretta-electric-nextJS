@@ -11,17 +11,20 @@ const MainPage = () => {
       <Image
         className={classes.background_image}
         src={electricianInstallation}
+        title="Beretta Electric Electrician Install"
         alt="Beretta Electric electrician installing light switch in Kelowna,
         British Columbia."
       />
       <div className={classes.container}>
-        <div className={classes.logo}>
+        <h1 className={classes.logo} title="Beretta Electric">
           <Image
             src={b_e_logo}
             className={classes.logo_img}
-            alt="Beretta Electric logo."
+            title="Beretta Electric"
+            alt="Beretta Electric logo"
+            loading="eager"
           />
-        </div>
+        </h1>
         <div className={classes.rci}>
           <EmblemList text="Residential"></EmblemList>
           <EmblemList text="Commercial"></EmblemList>

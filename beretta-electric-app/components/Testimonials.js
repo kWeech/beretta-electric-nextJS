@@ -149,7 +149,7 @@ const Testimonials = () => {
       // className={classes.background}
     >
       <div className={classes.container}>
-        <header className={classes.header}>Testimonials</header>
+        <h2 className={classes.header}>Testimonials</h2>
         <div className={classes.middle}>
           <div className={classes.leftContainer}>
             {showingInd > 0 && (

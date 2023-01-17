@@ -15,7 +15,8 @@ const Footer = () => {
         <Image
           src={b_e_logo}
           className={classes.logo_img}
-          alt="Beretta Electric"
+          title="Beretta Electric Logo"
+          alt="Beretta Electric logo."
         />
         <div>
           {/* <h1 id="contactUs" className={classes.header}>
