@@ -104,8 +104,8 @@
 .logo_img {
   height: 17.04vw;
   width: 87.33vw;
-  max-width: 782.08;
-  max-height: 152.29;
+  max-width: 782.08px;
+  max-height: 152.29px;
 }
 
 @media (min-width: 1000px) {
