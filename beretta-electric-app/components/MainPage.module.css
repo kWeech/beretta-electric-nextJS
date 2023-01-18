@@ -14,7 +14,7 @@
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-  max-height: 84.5px;
+  max-height: 48px;
 }
 
 .background {
@@ -102,7 +102,6 @@
 }
 
 .logo_img {
-  max-height: 159px;
   height: 90%;
   width: 90%;
 }
