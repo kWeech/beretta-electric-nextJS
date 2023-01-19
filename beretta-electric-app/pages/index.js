@@ -9,7 +9,6 @@ import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 import MainPage from "@/components/MainPage";
 import Services from "@/components/Services";
-import { Analytics } from "@vercel/analytics/react";
 
 export default function Home() {
   const [showingNav, setShowingNav] = useState(false);
@@ -65,7 +64,6 @@ export default function Home() {
 
         {showingNav && <SideBar onCloseNav={closeNav}></SideBar>}
       </div>
-      <Analytics />
     </>
   );
 }
