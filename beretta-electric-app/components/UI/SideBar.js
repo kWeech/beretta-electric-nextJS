@@ -16,6 +16,7 @@ const SideBar = (props) => {
             smooth={true}
             offset={-75}
             duration={500}
+            rel="nofollow"
           >
             Home
           </Link>
@@ -29,6 +30,7 @@ const SideBar = (props) => {
             smooth={true}
             offset={-75}
             duration={500}
+            rel="nofollow"
           >
             Services
           </Link>
@@ -42,6 +44,7 @@ const SideBar = (props) => {
             smooth={true}
             offset={-90}
             duration={500}
+            rel="nofollow"
           >
             Testimonials
           </Link>
@@ -55,6 +58,7 @@ const SideBar = (props) => {
             smooth={true}
             offset={-75}
             duration={500}
+            rel="nofollow"
           >
             About Us
           </Link>
@@ -68,6 +72,7 @@ const SideBar = (props) => {
             smooth={true}
             offset={-75}
             duration={500}
+            rel="nofollow"
           >
             Contact Us
           </Link>

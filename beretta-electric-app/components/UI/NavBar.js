@@ -13,6 +13,7 @@ const NavBar = (props) => {
           smooth={true}
           offset={-75}
           duration={500}
+          rel="nofollow"
         >
           Home
         </Link>
@@ -26,6 +27,7 @@ const NavBar = (props) => {
           smooth={true}
           offset={-75}
           duration={500}
+          rel="nofollow"
         >
           Services
         </Link>
@@ -39,6 +41,7 @@ const NavBar = (props) => {
           smooth={true}
           offset={-90}
           duration={500}
+          rel="nofollow"
         >
           Testimonials
         </Link>
@@ -52,6 +55,7 @@ const NavBar = (props) => {
           smooth={true}
           offset={-75}
           duration={500}
+          rel="nofollow"
         >
           About Us
         </Link>
@@ -65,6 +69,7 @@ const NavBar = (props) => {
           smooth={true}
           offset={-75}
           duration={500}
+          rel="nofollow"
         >
           Contact Us
         </Link>

@@ -54,6 +54,7 @@ const Header = (props) => {
           smooth={true}
           offset={-75}
           duration={500}
+          rel="nofollow"
         >
           <Image
             className={classes["logo-image"]}
@@ -67,7 +68,11 @@ const Header = (props) => {
       <div className={classes.right}>
         {width >= 940 && <NavBar></NavBar>}
 
-        <a className={classes.phoneButton} href="tel:+12508081849">
+        <a
+          rel="nofollow"
+          className={classes.phoneButton}
+          href="tel:+12508081849"
+        >
           <AiFillPhone className={classes.phoneIcon}></AiFillPhone>
           <p>(250) 808-1849</p>
         </a>
