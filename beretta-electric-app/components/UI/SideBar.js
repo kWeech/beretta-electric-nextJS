@@ -14,7 +14,7 @@ const SideBar = (props) => {
             to="home"
             spy={true}
             smooth={true}
-            offset={-75}
+            offset={-70}
             duration={500}
             rel="nofollow"
           >
@@ -28,7 +28,7 @@ const SideBar = (props) => {
             to="services"
             spy={true}
             smooth={true}
-            offset={-75}
+            offset={-60}
             duration={500}
             rel="nofollow"
           >
@@ -42,7 +42,7 @@ const SideBar = (props) => {
             to="testimonials"
             spy={true}
             smooth={true}
-            offset={-90}
+            offset={-60}
             duration={500}
             rel="nofollow"
           >
@@ -70,7 +70,7 @@ const SideBar = (props) => {
             to="contactUs"
             spy={true}
             smooth={true}
-            offset={-75}
+            offset={-90}
             duration={500}
             rel="nofollow"
           >
