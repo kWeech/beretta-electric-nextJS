@@ -31,8 +31,9 @@ const MainPage = () => {
           <EmblemList text="Industrial"></EmblemList>
         </div>
         <h3 className={classes.text}>
-          Locally owned and operated. Servicing our community in Vernon,
-          Kelowna, Lake Country and the Okanagan Area for over 18 years.
+          Locally owned and operated. Servicing our communities electrical needs
+          in Vernon, Kelowna, Lake Country and the Okanagan Area for over 18
+          years.
         </h3>
         <EmailForm></EmailForm>
       </div>
