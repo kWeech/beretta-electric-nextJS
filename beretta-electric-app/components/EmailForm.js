@@ -65,7 +65,7 @@ export const EmailForm = () => {
             required
           />
           <input
-            type="phone"
+            type="tel"
             name="user_phone"
             placeholder="Callback Phone"
             required
