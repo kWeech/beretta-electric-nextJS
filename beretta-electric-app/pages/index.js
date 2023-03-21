@@ -25,6 +25,10 @@ export default function Home() {
       <Head>
         <title>Beretta Electric</title>
         <meta
+          name="google-site-verification"
+          content="3cplThKgaVu_s4-ryw3d4MgsywIDYDS0u-WWibCCL1Q"
+        />
+        <meta
           name="description"
           content="Beretta Electric Electricians. Servicing Vernon, Kelowna, Lake Country, and the Okagan for over 18 years"
         />
