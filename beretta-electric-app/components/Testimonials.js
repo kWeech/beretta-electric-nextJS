@@ -170,7 +170,7 @@ const Testimonials = () => {
           </div>
         </div>
         <div className={classes.buttonContainer}>
-          <a href="https://search.google.com/local/writereview?placeid=ChIJI6gi9N3ufVMR8BhCUfkMyC0">
+          <a href="https://g.page/r/CfAYQlH5DMgtEBM/review">
             <div className={classes.write}>WRITE A REVIEW</div>
           </a>
 
